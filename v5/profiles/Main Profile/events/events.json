@@ -1,5 +1,35 @@
 {
-    "mainEvents": [],
+    "mainEvents": [
+        {
+            "name": "Follow",
+            "active": true,
+            "cached": true,
+            "sortTags": [],
+            "eventId": "follow",
+            "sourceId": "streamelements",
+            "effects": {
+                "list": [
+                    {
+                        "id": "50e60250-d910-11ef-9099-a9de73e161a0",
+                        "type": "firebot:html",
+                        "active": true,
+                        "enterAnimation": "fadeIn",
+                        "exitAnimation": "fadeOut",
+                        "inbetweenAnimation": "none",
+                        "html": "<p>YIPPEE</p>",
+                        "length": "5",
+                        "percentWeight": null
+                    }
+                ],
+                "id": "38f9bdd0-d910-11ef-9099-a9de73e161a0"
+            },
+            "filterData": {
+                "mode": "exclusive",
+                "filters": []
+            },
+            "id": "658cb8c0-d910-11ef-9099-a9de73e161a0"
+        }
+    ],
     "groups": {
         "34db7420-da45-11ee-bc7a-4960545afe81": {
             "id": "34db7420-da45-11ee-bc7a-4960545afe81",

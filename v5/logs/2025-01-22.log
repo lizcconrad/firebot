@@ -467,3 +467,224 @@ Body:
   stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
   userId: '534536846'
 }
+[2025-01-22 22:24:00.0512] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:24:03.0207] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:24:18.0209] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:24:30.0516] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:24:33.0213] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:24:48.0232] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:25:00.0545] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:25:03.0250] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:25:18.0260] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:25:30.0558] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:25:33.0267] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:25:48.0273] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:26:00.0564] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:26:03.0278] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:26:18.0281] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:26:30.0568] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:26:33.0285] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:26:48.0290] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:27:00.0572] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:27:03.0290] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:27:18.0295] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:27:30.0573] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:27:33.0300] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:27:48.0301] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:28:00.0578] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:28:03.0306] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:28:18.0308] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:28:22.0428] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:28:27.0553] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:28:28.0495] - info: [v5.63.2] got 'get all events' request
+[2025-01-22 22:28:28.0496] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:28:30.0584] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:28:33.0310] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:28:37.0030] - info: [v5.63.2] got 'get all filters' request
+[2025-01-22 22:28:37.0030] - info: [v5.63.2] got 'get all filters' request
+[2025-01-22 22:28:48.0315] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:29:00.0589] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:29:03.0318] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:29:18.0323] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:29:30.0593] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:29:33.0329] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:29:48.0333] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:30:00.0593] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:30:01.0170] - info: [v5.63.2] (Renderer) Copying text command was successful
+[2025-01-22 22:30:03.0338] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:30:16.0481] - info: [v5.63.2] API Request from: ::1, for path: /api/v1/status
+[2025-01-22 22:30:16.0810] - info: [v5.63.2] API Request from: ::1, for path: /api/v1/fonts
+[2025-01-22 22:30:16.0827] - info: [v5.63.2] Websocket Overlay Connection from ::1
+[2025-01-22 22:30:18.0343] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:30:28.0349] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:30:30.0598] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:30:33.0345] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:30:48.0348] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:30:55.0294] - info: [v5.63.2] Finished setting up Twitch API client
+[2025-01-22 22:30:55.0318] - info: [v5.63.2] (Renderer) Couldn't get streamer data for profile Main Profile while updating the UI. It's possible this account hasn't logged in yet.
+[2025-01-22 22:31:00.0604] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:31:04.0041] - info: [v5.63.2] got 'get all events' request
+[2025-01-22 22:31:04.0043] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:31:30.0609] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:31:37.0349] - info: [v5.63.2] got 'get all events' request
+[2025-01-22 22:31:37.0350] - info: [v5.63.2] got 'get all event sources' request
+[2025-01-22 22:31:37.0360] - info: [v5.63.2] got 'get all filters' request
+[2025-01-22 22:31:37.0361] - info: [v5.63.2] got 'get all filters' request
+[2025-01-22 22:32:00.0614] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:32:30.0619] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:33:00.0622] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:33:30.0629] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:34:00.0633] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:34:30.0638] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:35:00.0643] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:35:30.0644] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:36:00.0645] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:36:30.0651] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:37:00.0654] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:37:30.0658] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:38:00.0662] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:38:30.0666] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:39:00.0669] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:39:30.0674] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:40:00.0678] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
+[2025-01-22 22:40:30.0682] - error: [v5.63.2] Error while trying to get streamers broadcast Cannot read properties of undefined (reading 'id')
