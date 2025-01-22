@@ -1,0 +1,43 @@
+{
+    "dbVersion": "2",
+    "notifications": [
+        {
+            "title": "Feature YOUR stream on the Firebot website!",
+            "message": "Hey there, Firebot users! Did you know YOUR stream could be featured on the Firebot website? Just go to <strong>Settings</strong>, then <strong>General</strong>, and enable the <strong>Feature My Stream</strong> setting. That's it! After that, whenever you're live on Twitch while running Firebot, your stream will automatically appear <a href=\"https://firebot.app/watch\">on our website</a>.",
+            "type": "info",
+            "source": "external",
+            "externalId": "5.61-featured-streamers-reminder",
+            "id": "74b2641d-69fb-4b87-848a-df84b114de78",
+            "timestamp": "2024-08-29T21:01:56.842Z",
+            "read": false,
+            "saved": true
+        },
+        {
+            "title": "Known issue with Twitch logins",
+            "message": "Hey there, Firebot community. We know many of you may be experiencing an issue where Firebot is logging you out of your streamer and/or bot accounts frequently after logging in. Unfortunately, this is currently a known issue on Twitch's side that's affecting multiple bots/tools, not just Firebot, and we don't have an estimated time to resolution. However, we are closely monitoring the situation and will let everyone know once we have an update from Twitch. Thank you for your patience and support.",
+            "type": "alert",
+            "source": "external",
+            "externalId": "twitch-token-issue-2025-01-05",
+            "id": "53c2ecec-4436-4dbc-9c5a-9168144c6563",
+            "timestamp": "2025-01-22T22:17:03.231Z",
+            "read": false,
+            "saved": true
+        },
+        {
+            "title": "Twitch login issue resolved",
+            "message": "Hello again, Firebot community. We've received word from Twitch that they have resolved the authentication issue and are rolling the fix out to their systems. Thank you all again for your patience and support!",
+            "type": "info",
+            "source": "external",
+            "externalId": "twitch-token-issue-resolved-2025-01-08",
+            "id": "5f3f25e9-2632-41f9-b869-942cb71a7990",
+            "timestamp": "2025-01-22T22:17:03.231Z",
+            "read": false,
+            "saved": true
+        }
+    ],
+    "knownExternalIds": [
+        "5.61-featured-streamers-reminder",
+        "twitch-token-issue-2025-01-05",
+        "twitch-token-issue-resolved-2025-01-08"
+    ]
+}

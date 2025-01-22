@@ -1,0 +1,359 @@
+[2025-01-22 22:16:58.0791] - info: [v5.63.2] Starting Firebot...
+[2025-01-22 22:16:59.0498] - info: [v5.63.2] Ensuring required data folders exist...
+[2025-01-22 22:16:59.0501] - info: [v5.63.2] Finished verifying required folders exist.
+[2025-01-22 22:16:59.0553] - info: [v5.63.2] Setting logged in user cache.
+[2025-01-22 22:16:59.0841] - info: [v5.63.2] Finished setting up Twitch API client
+[2025-01-22 22:17:00.0000] - info: [v5.63.2] Updated Command cache.
+[2025-01-22 22:17:00.0358] - info: [v5.63.2] Starting scheduled task manager...
+[2025-01-22 22:17:00.0358] - info: [v5.63.2] Found 0 scheduled task(s)
+[2025-01-22 22:17:00.0358] - info: [v5.63.2] Scheduled task manager started
+[2025-01-22 22:17:00.0450] - warn: [v5.63.2] [accounts.getTwitchData] Failed to get account data: Encountered HTTP status code 400: Bad Request
+
+URL: token?grant_type=refresh_token&client_id=vsmi5406a96n0pfueefttu1ie8odgj&refresh_token=wjqa68n6pz7pdqms34qc7hmn2wg0odj9phzvj5rmwquyqamm1l
+Method: POST
+Body:
+{
+  "status": 400,
+  "message": "Invalid refresh token"
+}
+[2025-01-22 22:17:00.0451] - warn: [v5.63.2] [accounts.getTwitchData] Failed to get account data: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:00.0926] - info: [v5.63.2] Creating all currency commands.
+[2025-01-22 22:17:00.0926] - info: [v5.63.2] Creating all rank ladder commands.
+[2025-01-22 22:17:00.0935] - warn: [v5.63.2] Could not register event filter 'undefined' because no events are specified.
+[2025-01-22 22:17:00.0935] - warn: [v5.63.2] Could not register event filter 'undefined' because no events are specified.
+[2025-01-22 22:17:01.0276] - info: [v5.63.2] Starting OBS Control...
+[2025-01-22 22:17:01.0893] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:01.0893] - error: [v5.63.2] Failed to get teams for broadcaster Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:02.0916] - error: [v5.63.2] Error getting moderators Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:02.0916] - error: [v5.63.2] Error getting VIPs Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:02.0924] - info: [v5.63.2] Attempting to setup chat moderation worker...
+[2025-01-22 22:17:02.0927] - info: [v5.63.2] Finished setting up chat moderation worker.
+[2025-01-22 22:17:02.0972] - info: [v5.63.2] Updated Hotkeys cache.
+[2025-01-22 22:17:02.0975] - info: [v5.63.2] Creating or connecting user database
+[2025-01-22 22:17:02.0975] - info: [v5.63.2] ViewerDB: Trying to connect to viewer database...
+[2025-01-22 22:17:03.0045] - info: [v5.63.2] ViewerDB: Viewer Database Loaded:  /Users/lizcconrad/Library/Application Support/Firebot/v5/profiles/Main Profile/db/users.db
+[2025-01-22 22:17:03.0046] - info: [v5.63.2] Creating or connecting stats database
+[2025-01-22 22:17:03.0049] - info: [v5.63.2] Creating or connecting quotes database
+[2025-01-22 22:17:03.0051] - info: [v5.63.2] Doing once a day backup
+[2025-01-22 22:17:03.0051] - info: [v5.63.2] Backup manualActivation: false
+[2025-01-22 22:17:03.0052] - info: [v5.63.2] Ignoring overlay-resources folder
+[2025-01-22 22:17:03.0110] - error: [v5.63.2] Failed to get twitch custom channel rewards Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:03.0110] - error: [v5.63.2] Manageable Twitch channel rewards returned null!
+[2025-01-22 22:17:03.0114] - info: [v5.63.2] Default web server started, listening on port 7472
+[2025-01-22 22:17:03.0116] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:17:03.0249] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/import.png ../../../gui/images/icons/mdi/import.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:189:33)\n' +
+    '    at exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:28)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+[2025-01-22 22:17:03.0249] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/folder-account-outline.png ../../../gui/images/icons/mdi/folder-account-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:202:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0249] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/folder-text-outline.png ../../../gui/images/icons/mdi/folder-text-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:212:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0250] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/folder-refresh-outline.png ../../../gui/images/icons/mdi/folder-refresh-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:222:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0250] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/exit-run.png ../../../gui/images/icons/mdi/exit-run.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:229:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0250] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/content-cut.png ../../../gui/images/icons/mdi/content-cut.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:238:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0250] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/content-copy.png ../../../gui/images/icons/mdi/content-copy.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:242:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0250] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/content-paste.png ../../../gui/images/icons/mdi/content-paste.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:246:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/undo.png ../../../gui/images/icons/mdi/undo.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:250:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/redo.png ../../../gui/images/icons/mdi/redo.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:254:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/select-all.png ../../../gui/images/icons/mdi/select-all.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:258:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/window-minimize.png ../../../gui/images/icons/mdi/window-minimize.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:267:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/window-close.png ../../../gui/images/icons/mdi/window-close.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:271:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0251] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/auto-fix.png ../../../gui/images/icons/mdi/auto-fix.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:287:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/backup-restore.png ../../../gui/images/icons/mdi/backup-restore.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:296:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/text-search.png ../../../gui/images/icons/mdi/text-search.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:306:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/tools.png ../../../gui/images/icons/mdi/tools.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:313:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/discord.png ../../../gui/images/icons/discord.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:325:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/twitter.png ../../../gui/images/icons/mdi/twitter.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:332:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0252] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/source-branch.png ../../../gui/images/icons/mdi/source-branch.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:342:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0253] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/bug-outline.png ../../../gui/images/icons/mdi/bug-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:349:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0253] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/star-circle-outline.png ../../../gui/images/icons/mdi/star-circle-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:356:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0253] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/shopping-outline.png ../../../gui/images/icons/mdi/shopping-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:366:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0253] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/hand-heart-outline.png ../../../gui/images/icons/mdi/hand-heart-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:373:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0253] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/account-heart-outline.png ../../../gui/images/icons/mdi/account-heart-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:380:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:03.0254] - error: [v5.63.2] Failed to create icon image for path: ../../../gui/images/icons/mdi/information-outline.png ../../../gui/images/icons/mdi/information-outline.png 
+{
+  message: 'unable to retrieve thumbnail preview image for the given path',
+  stack: 'Error: unable to retrieve thumbnail preview image for the given path\n' +
+    '    at createIconImage (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:91:38)\n' +
+    '    at Object.createMainWindow (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/window-management.js:390:33)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async exports.whenReady (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/app-management/electron/events/when-ready.js:203:5)'
+}
+[2025-01-22 22:17:04.0628] - info: [v5.63.2] Setting logged in user cache.
+[2025-01-22 22:17:04.0825] - info: [v5.63.2] got 'get all integrations' request
+[2025-01-22 22:17:04.0828] - error: [v5.63.2] Failed to get twitch custom channel rewards Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:04.0828] - error: [v5.63.2] Failed to get twitch custom channel rewards Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:04.0829] - warn: [v5.63.2] There was an error retrieving channel reward redemptions. 
+{
+  message: 'rewards is not iterable',
+  stack: 'TypeError: rewards is not iterable\n' +
+    '    at TwitchChannelRewardsApi.getOpenChannelRewardRedemptions (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/twitch-api/resource/channel-rewards.js:206:34)\n' +
+    '    at async ChannelRewardManager.refreshChannelRewardRedemptions (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/channel-rewards/channel-reward-manager.js:319:42)\n' +
+    '    at async Object.callback (/Applications/Firebot.app/Contents/Resources/app.asar/build/backend/channel-rewards/channel-reward-manager.js:48:13)'
+}
+[2025-01-22 22:17:18.0116] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:17:30.0456] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:17:33.0116] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:17:48.0120] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:18:00.0461] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:18:03.0121] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:18:18.0126] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:18:30.0463] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:18:33.0128] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:18:48.0133] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:19:00.0468] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:19:03.0135] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:19:18.0140] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}
+[2025-01-22 22:19:30.0471] - error: [v5.63.2] Error while trying to get streamers broadcast Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.
+[2025-01-22 22:19:33.0141] - error: [v5.63.2] Unhandled promise rejection 
+{
+  message: "Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  stack: "CachedRefreshFailureError: Failed to refresh the user access token. This happened because the access token became invalid (e.g. by expiry) and refreshing it failed (e.g. because the account's password was changed). The user will need to reauthenticate to continue.",
+  userId: '534536846'
+}

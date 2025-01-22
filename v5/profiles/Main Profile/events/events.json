@@ -1,0 +1,131 @@
+{
+    "mainEvents": [],
+    "groups": {
+        "34db7420-da45-11ee-bc7a-4960545afe81": {
+            "id": "34db7420-da45-11ee-bc7a-4960545afe81",
+            "name": "OverlayChatBox",
+            "active": true,
+            "events": [
+                {
+                    "name": "Overlay Connected",
+                    "active": true,
+                    "cached": true,
+                    "sortTags": [],
+                    "eventId": "overlay-connected",
+                    "sourceId": "firebot",
+                    "effects": {
+                        "list": [
+                            {
+                                "id": "5865cfd0-da45-11ee-bc7a-4960545afe81",
+                                "type": "firebot:run-effect-list",
+                                "active": true,
+                                "listType": "preset",
+                                "presetListArgs": {},
+                                "effectList": {
+                                    "list": [],
+                                    "id": "586b4e10-da45-11ee-bc7a-4960545afe81"
+                                },
+                                "presetListId": "823ccae0-fcd1-11ed-8eef-d155b90fa263"
+                            }
+                        ],
+                        "id": "4f11a8a0-da45-11ee-bc7a-4960545afe81"
+                    },
+                    "filterData": {
+                        "mode": "exclusive",
+                        "filters": []
+                    },
+                    "id": "e0fcb340-da45-11ee-bc7a-4960545afe81"
+                },
+                {
+                    "name": "Before Firebot Closed",
+                    "active": true,
+                    "cached": true,
+                    "sortTags": [],
+                    "eventId": "before-firebot-closed",
+                    "sourceId": "firebot",
+                    "effects": {
+                        "list": [
+                            {
+                                "id": "25140920-da46-11ee-bc7a-4960545afe81",
+                                "type": "firebot:run-effect-list",
+                                "active": true,
+                                "listType": "preset",
+                                "presetListArgs": {},
+                                "effectList": {
+                                    "list": [],
+                                    "id": "25162c00-da46-11ee-bc7a-4960545afe81"
+                                },
+                                "presetListId": "95bf5730-fcd2-11ed-a012-951a917b573a"
+                            }
+                        ],
+                        "id": "1d061d90-da46-11ee-bc7a-4960545afe81"
+                    },
+                    "filterData": {
+                        "mode": "exclusive",
+                        "filters": []
+                    },
+                    "id": "3058b5b0-da46-11ee-bc7a-4960545afe81"
+                },
+                {
+                    "name": "Chat Message",
+                    "active": true,
+                    "cached": true,
+                    "sortTags": [],
+                    "eventId": "chat-message",
+                    "sourceId": "twitch",
+                    "effects": {
+                        "list": [
+                            {
+                                "id": "f08a0400-da5b-11ee-bc7a-4960545afe81",
+                                "type": "firebot:eval-js",
+                                "active": true,
+                                "parameters": [
+                                    "$chatMessageEmoteNames",
+                                    "$chatMessageEmoteUrls"
+                                ],
+                                "code": "let names = JSON.parse(parameters[0]);\nlet urls = JSON.parse(parameters[1]);\nconsole.log(\"sandbox\")\nlet emotes = [];\nfor(let i = 0; i < names.length; i++){\n let emote = `{\"name\":\"${names[i]}\", \"url\":\"${urls[i]}\"}`;\n console.log(`{\"name\":\"${names[i]}\", \"url\":\"${urls[i]}\"}`);\n emotes.push(emote);\n}\n console.log(emotes.toString());\nreturn emotes.toString();",
+                                "outputNames": {
+                                    "jsResult": "formatedEmoteData"
+                                }
+                            },
+                            {
+                                "id": "f08a0401-da5b-11ee-bc7a-4960545afe81",
+                                "type": "firebot:customvariable",
+                                "active": true,
+                                "ttl": 0,
+                                "variableData": "[$effectOutput[formatedEmoteData]]",
+                                "name": "emotedata"
+                            },
+                            {
+                                "id": "d4dc38c0-da5d-11ee-bc7a-4960545afe81",
+                                "type": "firebot:run-effect-list",
+                                "active": true,
+                                "listType": "preset",
+                                "presetListArgs": {
+                                    "username": "$userDisplayName",
+                                    "avatar": "$userAvatarUrl",
+                                    "color": "$chatUserColor[$username]",
+                                    "badges": "$userBadgeUrls",
+                                    "emotes": "$$emotedata",
+                                    "message": "$chatMessage"
+                                },
+                                "effectList": {
+                                    "list": [],
+                                    "id": "fdfe15b0-da45-11ee-bc7a-4960545afe81"
+                                },
+                                "presetListId": "2eda84b0-da47-11ee-a556-b598ccb863b3"
+                            }
+                        ],
+                        "id": "f08a0405-da5b-11ee-bc7a-4960545afe81"
+                    },
+                    "filterData": {
+                        "mode": "exclusive",
+                        "filters": []
+                    },
+                    "id": "f08a0406-da5b-11ee-bc7a-4960545afe81"
+                }
+            ],
+            "$$hashKey": "object:110"
+        }
+    }
+}

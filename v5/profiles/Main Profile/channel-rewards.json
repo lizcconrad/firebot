@@ -1,0 +1,212 @@
+{
+    "11d662f7-534e-44e3-8b19-cb3d4d5a2afc": {
+        "id": "11d662f7-534e-44e3-8b19-cb3d4d5a2afc",
+        "manageable": true,
+        "twitchData": {
+            "broadcasterId": "534536846",
+            "broadcasterLogin": "tinytreatery",
+            "broadcasterName": "TinyTreatery",
+            "id": "11d662f7-534e-44e3-8b19-cb3d4d5a2afc",
+            "title": "Controller Game (Deceive)",
+            "prompt": "",
+            "cost": 1000,
+            "image": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "defaultImage": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "backgroundColor": "#5C4086",
+            "isEnabled": true,
+            "isUserInputRequired": false,
+            "maxPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerStream": null
+            },
+            "maxPerUserPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerUserPerStream": null
+            },
+            "globalCooldownSetting": {
+                "isEnabled": true,
+                "globalCooldownSeconds": 3600
+            },
+            "isPaused": false,
+            "isInStock": true,
+            "shouldRedemptionsSkipRequestQueue": false,
+            "cooldownExpiresAt": null
+        }
+    },
+    "d00e0003-298a-4602-b0c0-f499740193a1": {
+        "id": "d00e0003-298a-4602-b0c0-f499740193a1",
+        "manageable": true,
+        "twitchData": {
+            "broadcasterId": "534536846",
+            "broadcasterLogin": "tinytreatery",
+            "broadcasterName": "TinyTreatery",
+            "id": "d00e0003-298a-4602-b0c0-f499740193a1",
+            "title": "Choose a gadget",
+            "prompt": "Choose 1 gadget for the next game [EXPENSIVE, EXCLUSIVE, I DON'T WANNA DO THIS]",
+            "cost": 10000,
+            "image": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "defaultImage": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "backgroundColor": "#FE8A98",
+            "isEnabled": true,
+            "isUserInputRequired": true,
+            "maxPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerStream": null
+            },
+            "maxPerUserPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerUserPerStream": null
+            },
+            "globalCooldownSetting": {
+                "isEnabled": false,
+                "globalCooldownSeconds": null
+            },
+            "isPaused": false,
+            "isInStock": true,
+            "shouldRedemptionsSkipRequestQueue": false,
+            "cooldownExpiresAt": null
+        }
+    },
+    "4f04267f-8d6a-4e37-8845-98be70d7994d": {
+        "id": "4f04267f-8d6a-4e37-8845-98be70d7994d",
+        "manageable": false,
+        "twitchData": {
+            "broadcasterId": "534536846",
+            "broadcasterLogin": "tinytreatery",
+            "broadcasterName": "TinyTreatery",
+            "id": "4f04267f-8d6a-4e37-8845-98be70d7994d",
+            "title": "Play Agent",
+            "prompt": "Type the name of the agent you want me to play in the next game!",
+            "cost": 3000,
+            "image": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "defaultImage": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "backgroundColor": "#FE8A98",
+            "isEnabled": true,
+            "isUserInputRequired": true,
+            "maxPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerStream": null
+            },
+            "maxPerUserPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerUserPerStream": null
+            },
+            "globalCooldownSetting": {
+                "isEnabled": false,
+                "globalCooldownSeconds": null
+            },
+            "isPaused": false,
+            "isInStock": true,
+            "shouldRedemptionsSkipRequestQueue": false,
+            "cooldownExpiresAt": null
+        }
+    },
+    "8d5a9ef8-19b3-4569-b9f4-01c3505a2e3f": {
+        "id": "8d5a9ef8-19b3-4569-b9f4-01c3505a2e3f",
+        "manageable": false,
+        "twitchData": {
+            "broadcasterId": "534536846",
+            "broadcasterLogin": "tinytreatery",
+            "broadcasterName": "TinyTreatery",
+            "id": "8d5a9ef8-19b3-4569-b9f4-01c3505a2e3f",
+            "title": "STRETCH UR LEGS",
+            "prompt": "play a game while standing to promote wellness 😌",
+            "cost": 3000,
+            "image": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "defaultImage": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "backgroundColor": "#EDFD71",
+            "isEnabled": true,
+            "isUserInputRequired": false,
+            "maxPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerStream": null
+            },
+            "maxPerUserPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerUserPerStream": null
+            },
+            "globalCooldownSetting": {
+                "isEnabled": false,
+                "globalCooldownSeconds": null
+            },
+            "isPaused": false,
+            "isInStock": true,
+            "shouldRedemptionsSkipRequestQueue": false,
+            "cooldownExpiresAt": null
+        }
+    },
+    "e82aab86-8e1f-4960-b11b-dab8fa78f395": {
+        "id": "e82aab86-8e1f-4960-b11b-dab8fa78f395",
+        "manageable": false,
+        "twitchData": {
+            "broadcasterId": "534536846",
+            "broadcasterLogin": "tinytreatery",
+            "broadcasterName": "TinyTreatery",
+            "id": "e82aab86-8e1f-4960-b11b-dab8fa78f395",
+            "title": "Choose Agent AND Loadout",
+            "prompt": "Choose which agent AND loadout I play in the next game",
+            "cost": 10000,
+            "image": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "defaultImage": {
+                "url1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+                "url2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+                "url4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+            },
+            "backgroundColor": "#FF567F",
+            "isEnabled": false,
+            "isUserInputRequired": true,
+            "maxPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerStream": null
+            },
+            "maxPerUserPerStreamSetting": {
+                "isEnabled": false,
+                "maxPerUserPerStream": null
+            },
+            "globalCooldownSetting": {
+                "isEnabled": false,
+                "globalCooldownSeconds": null
+            },
+            "isPaused": false,
+            "isInStock": true,
+            "shouldRedemptionsSkipRequestQueue": true,
+            "cooldownExpiresAt": null
+        }
+    }
+}

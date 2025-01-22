@@ -1,0 +1,100 @@
+{
+    "2eda84b0-da47-11ee-a556-b598ccb863b3": {
+        "name": "htmlChatMessage",
+        "effects": {
+            "list": [
+                {
+                    "id": "16c8c6c0-da5b-11ee-bc7a-4960545afe81",
+                    "type": "firebot:log-message",
+                    "active": true,
+                    "logLevel": "Error",
+                    "logMessage": "$presetListArg[emotes]"
+                },
+                {
+                    "id": "2eda84b0-da47-11ee-bc7a-4960545afe81",
+                    "type": "firebot:html",
+                    "active": true,
+                    "enterAnimation": "fadeIn",
+                    "exitAnimation": "fadeOut",
+                    "inbetweenAnimation": "none",
+                    "html": "<div class=\"newMessage\">{\"user\":\"$#username\", \"color\":\"$#color\",\"avatar\":\"$#avatar\",\"badges\":$#badges,\"emotes\":$convertFromJSON[$#emotes],\"message\":\"$#message\"}</div>",
+                    "removal": "",
+                    "length": "10",
+                    "overlayInstance": null
+                }
+            ],
+            "id": "2eda84b1-da47-11ee-bc7a-4960545afe81"
+        },
+        "args": [
+            {
+                "name": "username"
+            },
+            {
+                "name": "avatar"
+            },
+            {
+                "name": "color"
+            },
+            {
+                "name": "badges"
+            },
+            {
+                "name": "emotes"
+            },
+            {
+                "name": "message"
+            }
+        ],
+        "sortTags": [],
+        "id": "2eda84b0-da47-11ee-a556-b598ccb863b3",
+        "$$hashKey": "object:113"
+    },
+    "823ccae0-fcd1-11ed-8eef-d155b90fa263": {
+        "name": "htmlLoad",
+        "effects": {
+            "list": [
+                {
+                    "id": "a736e330-fcd1-11ed-8eef-d155b90fa263",
+                    "type": "firebot:html",
+                    "active": true,
+                    "enterAnimation": "fadeIn",
+                    "exitAnimation": "fadeOut",
+                    "inbetweenAnimation": "none",
+                    "html": "<div class=\"newMessage\"></div>\n\n<div class=\"keep\">\n  <style>\n  @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Bungee+Shade&family=Inder&display=swap');\n* {\n  box-sizing: border-box;\n}\n\n.keep{\n  top:200;\n  left:10;\n}\n\n.container {\n  width: 400px;\n  margin: 0 auto;\n  overflow: hidden;\n}\n\n.chat-container {\n  height: 400px;\n  overflow: hidden;\n  transform: rotate(180deg);\n  direction: rtl;\n}\n\n.username {\n  font-family: 'Bungee Shade', cursive !important;\n}\n\n.text {\n  display: contents;\n  font-family: 'Inder', sans-serif;\n}\n\n.message {\n  border: solid 1px #ccc;\n  padding: 10px;\n  transform: rotate(180deg);\n  border-radius: 20px;\n  direction: ltr;\n}\n\n.avatar {\n  float: left;\n  margin-right: 5px;\n  padding-bottom: 5px;\n  height: 40px;\n  width: 40px;\n  margin: 1 auto;\n}\n\n.badge {\n  float: left;\n  margin-right: 3px;\n  height: 20px;\n}\n\n.badges {\n  padding-top: 2%;\n}\n\n.newMessage{\n  display: none;\n}\n  </style>\n     <div class=\"container\">\n  <div class=\"chat-container\">\n  </div>\n</div>\n  <script>\n  $(function runChangeText() {\n  timeoutVar = setTimeout(() => {\n    try {\n      \n      var newMessage = JSON.parse(document.getElementsByClassName(\"newMessage\")[0].innerText);\n      $('.newMessage').remove();\n      //console.log(newMessage);\n\n      let badges = newMessage.badges;\n      console.log(badges);\n      let emotes = newMessage.emotes;\n      console.log(emotes);\n      let message = newMessage.message;\n      let username = newMessage.user;\n      let avatar = newMessage.avatar;\n      let color = newMessage.color;\n      \n      var new_row = document.createElement(\"div\");\n      new_row.className = \"message\";\n      const messageNodes = document.getElementsByClassName(\"message\");\n      //new_row.style.borderColor = \"red\";\n      let number = messageNodes.length;\n      //console.log(number);\n      var new_avatar = document.createElement(\"img\");\n      new_avatar.className = \"avatar\";\n      new_avatar.src = avatar;\n      var new_badges = document.createElement(\"div\");\n      new_badges.className = \"badges\";\n      newMessage.badges.forEach(async (badge) => {\n        var new_badge = document.createElement(\"img\");\n        new_badge.className = \"badge\";\n        new_badge.src = badge;\n        new_badges.appendChild(new_badge);\n      });\n      \n      if (emotes.length > 0) {\n        emotes.forEach(async (emote) => {\n          var new_emote = document.createElement(\"img\");\n          new_emote.className = \"emote\";\n          new_emote.src = emote.url;\n          message = message.replace(emote.name, `<img src=\"${emote.url}\">`);\n        });\n      }\n\n\n      var new_p = document.createElement(\"p\");\n      new_p.className = \"p text\";\n      var new_user = document.createElement(\"div\");\n      new_user.className = \"username text\";\n      new_user.style.color = color;\n      new_user.appendChild(document.createTextNode(username + \": \"));\n      new_p.appendChild(new_user);\n      var new_text = document.createElement(\"div\");\n      new_text.innerHTML = message;\n      new_text.className = \"text\";\n\n      new_p.appendChild(new_text);\n      new_row.appendChild(new_avatar);\n      new_row.appendChild(new_badges);\n      new_row.appendChild(new_p);\n      document.getElementsByClassName(\"chat-container\")[0].prepend(new_row);\n      if (number >= 6) {\n        messageNodes[0].parentNode.removeChild(messageNodes[number]);\n      }\n    } catch (error) {\n     // console.log(error);\n    }\n    runChangeText();\n  }, 100);\n});\n  </script>\n</div>",
+                    "removal": "newMessage",
+                    "length": "10",
+                    "overlayInstance": null
+                }
+            ],
+            "id": "823cf1f0-fcd1-11ed-8eef-d155b90fa263"
+        },
+        "args": [],
+        "sortTags": [],
+        "id": "823ccae0-fcd1-11ed-8eef-d155b90fa263",
+        "$$hashKey": "object:114"
+    },
+    "95bf5730-fcd2-11ed-a012-951a917b573a": {
+        "name": "htmlremove",
+        "effects": {
+            "list": [
+                {
+                    "id": "95bf3020-fcd2-11ed-8eef-d155b90fa263",
+                    "type": "firebot:html",
+                    "active": true,
+                    "enterAnimation": "fadeIn",
+                    "exitAnimation": "fadeOut",
+                    "inbetweenAnimation": "none",
+                    "html": "<div class=\"keep\">\n</div>",
+                    "removal": "keep, image, remove",
+                    "length": "2",
+                    "overlayInstance": null
+                }
+            ],
+            "id": "95bf3021-fcd2-11ed-8eef-d155b90fa263"
+        },
+        "args": [],
+        "sortTags": [],
+        "id": "95bf5730-fcd2-11ed-a012-951a917b573a",
+        "$$hashKey": "object:115"
+    }
+}
