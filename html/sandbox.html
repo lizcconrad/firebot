@@ -1,10 +1,31 @@
 <document>
 <head>
+    <!-- firebot wrapper css to mimic overlay -->
+    <link rel="stylesheet" href="main.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lizcconrad/firebot@refs/heads/master/html/alerts.css">
-    <div id="someID"></div>
-    <script>$('#someID').load('https://cdn.jsdelivr.net/gh/lizcconrad/firebot@master/html/new_follower.html');</script>
+
+    <div class="wrapper" id="wrapper">
+
+        <!-- required links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        
+
+        <!-- hosted file -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lizcconrad/firebot@refs/heads/master/html/alerts.css">
+        <link rel="stylesheet" href="alerts.css">
+
+
+        <div id="someID"></div>
+    
+        <!-- hosted file -->
+        <!-- <script>$('#someID').load('https://cdn.jsdelivr.net/gh/lizcconrad/firebot@master/html/new_follower.html');</script> -->
+        <!-- local file -->
+        <script>$('#someID').load('new_follower.html');</script>
+
+    </div>
 </body>
 </document>
