@@ -1,5 +1,6 @@
 #someID {
   display: flex;
+  position: relative;
 }
 
 .alertbox {
