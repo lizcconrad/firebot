@@ -8,9 +8,12 @@ $tt-brown: #623d35;
     font-style: normal;
 }
 
-#someID {
+
+#contentDiv {
     display: flex;
+    // ensure centering inside position: absolute div
     position: relative;
+    left: 50%
 }
 
 .alertbox {

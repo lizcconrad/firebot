@@ -19,10 +19,14 @@
         <link rel="stylesheet" href="alerts.css">
 
 
-        <div id="someID"></div>
+        <!-- mimic firebot outerdiv positioning -->
+        <div style="position: absolute;">
+            <div id="contentDiv"></div>
+        </div>
+        
     
         <!-- hosted file -->
-        <script>$('#someID').load('https://cdn.jsdelivr.net/gh/lizcconrad/firebot@master/html/new_follower.html');</script>
+        <script>$('#contentDiv').load('https://cdn.jsdelivr.net/gh/lizcconrad/firebot@master/html/new_follower.html');</script>
         <!-- local file -->
         <!-- <script>$('#someID').load('new_follower.html');</script> -->
 

@@ -1,6 +1,7 @@
-#someID {
+#contentDiv {
   display: flex;
   position: relative;
+  left: 50%;
 }
 
 .alertbox {
